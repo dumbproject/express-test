@@ -7,8 +7,9 @@ console.log('greetings earthlings\nwe running shit...\n')
 
 app.get('/', (req, res) => {
     console.log('here')
-    res.status(500)
-    res.send('hi')
+    // res.status(500)
+    // res.send('hi')
+    res.render("index")
 })
 
 
